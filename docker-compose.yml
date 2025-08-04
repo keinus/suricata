@@ -6,10 +6,7 @@ services:
       - net_admin
       - net_raw
       - sys_nice
+    network_mode: host
     volumes:
       - ./config:/etc/suricata/
       - ./log:/var/log/suricata
-    networks:
-      - suricata_network
-networks:
-  suricata_network:
