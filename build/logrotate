@@ -1,0 +1,1 @@
+0 1 * * * root /usr/sbin/logrotate -vf /etc/logrotate.d/suricata >> /var/log/suricata/logrotate.log 2>&1

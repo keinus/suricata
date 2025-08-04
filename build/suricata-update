@@ -1,0 +1,1 @@
+0 2 * * * suricata suricata-update -f >> /var/log/suricata/suricata-update.log 2>&1
